@@ -5,13 +5,13 @@ getgenv().NoMoreAdonis = true
 
 game:GetService("StarterGui"):SetCore("DevConsoleVisible", true)
 
-print([[
+print("\t"..[[
  _   _       __  __                   _       _             _     
 | \ | | ___ |  \/  | ___  _ __ ___   / \   __| | ___  _ __ (_)___ 
 |  \| |/ _ \| |\/| |/ _ \| '__/ _ \ / _ \ / _` |/ _ \| '_ \| / __|
 | |\  | (_) | |  | | (_) | | |  __// ___ \ (_| | (_) | | | | \__ \
 |_| \_|\___/|_|  |_|\___/|_|  \___/_/   \_\__,_|\___/|_| |_|_|___/
-
+]].."\t"..[[
 ~~~ By IvanTheSkid on GitHub ~~~]])
 
 local RS = game:GetService("ReplicatedStorage")
